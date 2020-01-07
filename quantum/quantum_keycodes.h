@@ -585,6 +585,7 @@ enum quantum_keycodes {
 
 #endif
 
+    WEBUSB_PAIR,
     // always leave at the end
     SAFE_RANGE
 };

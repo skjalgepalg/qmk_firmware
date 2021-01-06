@@ -2,8 +2,9 @@
 # See rules at https://docs.qmk.fm/#/config_options?id=the-rulesmk-file
 LINK_TIME_OPTIMIZATION_ENABLE = yes
 COMMAND_ENABLE = no
-AUTO_SHIFT_ENABLE = yes
+AUTO_SHIFT_ENABLE = no
 WEBUSB_ENABLE = yes
 SRC = matrix.c
 RGBLIGHT_ENABLE = no
 RGB_MATRIX_ENABLE = yes
+# DEBOUNCE_TYPE = sym_g
